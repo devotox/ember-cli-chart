@@ -1320,8 +1320,8 @@ charm@^1.0.0:
     inherits "^2.0.1"
 
 chart.js@devotox/chart.js:
-  version "2.7.1"
-  resolved "https://codeload.github.com/devotox/chart.js/tar.gz/73e6af6f5bd6138a77e9e71b7028dae00dc3de34"
+  version "3.0.0-beta.1"
+  resolved "https://codeload.github.com/devotox/chart.js/tar.gz/4a329a4c2f7e3c51a063c3b835e132e019fdf480"
   dependencies:
     chartjs-color "^2.1.0"
     moment "^2.10.2"
