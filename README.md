@@ -1,16 +1,27 @@
-# Ember Chart
-
 [![Build Status](https://travis-ci.org/aomran/ember-cli-chart.svg)](https://travis-ci.org/aomran/ember-cli-chart)
+
+Ember Chart
+==============================================================================
 
 This Ember CLI addon is a simple wrapper for [ChartJS](http://www.chartjs.org/) (v2.7.0).
 
-### Installation
+Compatibility
+------------------------------------------------------------------------------
+
+* Ember.js v2.18 or above
+* Ember CLI v2.13 or above
+
+
+Installation
+------------------------------------------------------------------------------
 
 ```
-$ ember install ember-cli-chart
+ember install ember-cli-chart
 ```
 
-### Usage
+Usage
+------------------------------------------------------------------------------
+
 
 In your handlebars template just do:
 
@@ -33,3 +44,14 @@ In your handlebars template just do:
 #### More Resources
 
 * [Screencast on creating bar charts with ember-cli-chart](https://www.emberscreencasts.com/posts/46-bar-charts-with-ember-cli-chart)
+
+Contributing
+------------------------------------------------------------------------------
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
+
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [MIT License](LICENSE.md).
