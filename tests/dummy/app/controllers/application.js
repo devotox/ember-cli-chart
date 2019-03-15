@@ -1,13 +1,14 @@
-import Ember from 'ember';
+import { computed } from '@ember/object';
+import Controller from '@ember/controller';
 
-export default Ember.Controller.extend({
-  options: {
+export default Controller.extend({
+  options: { // eslint-disable-line
     responsive: false
   },
   pieValue1: 300,
   pieValue2: 50,
   pieValue3: 100,
-  pieData: Ember.computed('pieValue1', 'pieValue2', 'pieValue3', function(){
+  pieData: computed('pieValue1', 'pieValue2', 'pieValue3', function(){
     return {
       labels: ['Red', "Green", "Yellow"],
       datasets: [
@@ -26,7 +27,7 @@ export default Ember.Controller.extend({
   lineValue1: 65,
   lineValue2: 59,
   lineLabel: "July",
-  lineData: Ember.computed('lineValue1', 'lineValue2', 'lineLabel', function(){
+  lineData: computed('lineValue1', 'lineValue2', 'lineLabel', function(){
     var labels = ["January", "February", "March", "April", "May", "June"];
     labels.push( this.get('lineLabel') );
 
@@ -56,7 +57,7 @@ export default Ember.Controller.extend({
         ]
     };
   }),
-  barData: {
+  barData: { // eslint-disable-line
     labels: ["January", "February", "March", "April", "May", "June", "July"],
     datasets: [
         {
@@ -77,7 +78,7 @@ export default Ember.Controller.extend({
         }
     ]
   },
-  radarData: {
+  radarData: { // eslint-disable-line
     labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
     datasets: [
         {
@@ -102,7 +103,7 @@ export default Ember.Controller.extend({
         }
     ]
   },
-  polarAreaData: {
+  polarAreaData: { // eslint-disable-line
     datasets: [{
       data: [
           11,
