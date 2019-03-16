@@ -20,6 +20,24 @@ export default Controller.extend({
           ],
           backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C"],
           hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870"]
+        },
+        {
+          data: [
+            parseInt(this.get('pieValue1')),
+            parseInt(this.get('pieValue2')),
+            parseInt(this.get('pieValue3'))
+          ],
+          backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C"],
+          hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870"]
+        },
+        {
+          data: [
+            parseInt(this.get('pieValue1')),
+            parseInt(this.get('pieValue2')),
+            parseInt(this.get('pieValue3'))
+          ],
+          backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C"],
+          hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870"]
         }
       ]
     };
@@ -105,6 +123,70 @@ export default Controller.extend({
   },
   polarAreaData: { // eslint-disable-line
     datasets: [{
+      data: [
+          11,
+          16,
+          7,
+          3,
+          14
+      ],
+      backgroundColor: [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#E7E9ED",
+          "#36A2EB"
+      ],
+      label: 'My dataset' // for legend
+    }, {
+      data: [
+          11,
+          16,
+          7,
+          3,
+          14
+      ],
+      backgroundColor: [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#E7E9ED",
+          "#36A2EB"
+      ],
+      label: 'My dataset' // for legend
+    }, {
+      data: [
+          11,
+          16,
+          7,
+          3,
+          14
+      ],
+      backgroundColor: [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#E7E9ED",
+          "#36A2EB"
+      ],
+      label: 'My dataset' // for legend
+    }, {
+      data: [
+          11,
+          16,
+          7,
+          3,
+          14
+      ],
+      backgroundColor: [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#E7E9ED",
+          "#36A2EB"
+      ],
+      label: 'My dataset' // for legend
+    }, {
       data: [
           11,
           16,
